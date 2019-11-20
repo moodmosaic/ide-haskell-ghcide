@@ -1,18 +1,27 @@
 {
   "name": "ide-haskell-ghcide",
-  "main": "./lib/ide-haskell-ghcide",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "main": "./lib/ghcideLanguageClient",
+  "version": "0.1.0",
+  "description": "Haskell language support for Atom, powered by ghcide.",
   "keywords": [
+    "Haskell",
+    "Language Server Protocol",
+    "LSP",
+    "haskell-ide-engine",
+    "hie",
+    "hie-core",
+    "ghcide"
   ],
-  "activationCommands": {
-    "atom-workspace": "ide-haskell-ghcide:toggle"
-  },
-  "repository": "https://github.com/atom/ide-haskell-ghcide",
+  "repository": "https://github.com/moodmosaic/ide-haskell-ghcide",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-  }
+    "atom-languageclient": ">=0.9.9"
+  },
+  "package-deps": [
+    "language-haskell",
+    "atom-ide-ui"
+  ]
 }
