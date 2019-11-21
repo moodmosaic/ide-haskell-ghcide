@@ -1,3 +1,7 @@
 Haskell language support for Atom, powered by ghcide.
 
-**Not yet published to the atom.io package registry**
+```bash
+$ apm install language-haskell atom-ide-ui ide-haskell-ghcide
+```
+
+Assumes [ghcide](https://github.com/digital-asset/ghcide) is in PATH.

@@ -18,13 +18,8 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "atom-languageclient": "^0.9.9",
-    "atom-package-deps": "^5.1.0"
+    "atom-languageclient": "^0.9.9"
   },
-  "package-deps": [
-    "language-haskell",
-    "atom-ide-ui"
-  ],
   "consumedServices": {
     "console": {
       "versions": {
