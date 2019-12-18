@@ -22,3 +22,41 @@ The idea is that *if or when* ghcide exports a feature, and that feature is supp
 
 ### Replace suggested typos for values and module imports
 ![](https://github.com/moodmosaic/ide-haskell-ghcide-media/raw/master/57d79674-20ef-11ea-978f-2e728ce88125.png)
+
+## Style Tweaks
+
+If you want to apply styling changes, you can add styles to the `styles.less` file in your `%USERPROFILE%\.atom` directory. You can also open this file inside Atom from the *File > Stylesheet* menu.
+
+### Styles used in the screenshots above
+```less
+.datatip-marked-container {
+  font-size: 114%;
+  font-family:inherit;
+}
+
+.datatip-marked-container pre code {
+  font-size: 124%;
+  font-family: inherit;
+}
+
+.diagnostics-code-action-button.btn.btn-xs span {
+  font-size: 124%;
+}
+
+.diagnostics-popup {
+  overflow-y: auto;
+
+  .diagnostics-popup-header {
+    margin-right: 10px;
+    display: inline-block;
+  }
+  .diagnostics-popup-message {
+    display: inline-block;
+    font-size: 114%;
+  }
+}
+
+.diagnostics-ui {
+  font-size: 104%;
+}
+```
