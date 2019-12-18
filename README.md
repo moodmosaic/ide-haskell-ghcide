@@ -4,11 +4,11 @@ Haskell language support for Atom, powered by [ghcide](https://github.com/digita
 $ apm install language-haskell atom-ide-ui ide-haskell-ghcide
 ```
 
-The idea behind the implementation of this package is that *if or when* ghcide exports a feature, and that feature is supported by the Language Server Protocol support for Atom, it should work without having to release a new version of this Atom package.
-
 ---
 
 ## Features
+
+The idea is that *if or when* ghcide exports a feature, and that feature is supported by the Language Server Protocol support for Atom, it should work without having to release a new version of this Atom package.
 
 ### Display type and source module of values
 ![](https://github.com/moodmosaic/ide-haskell-ghcide-media/raw/master/57d79670-20ef-11ea-978f-2e728ce88125.png)
