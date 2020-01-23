@@ -39,6 +39,14 @@ If you want to apply styling changes, you can add styles to the `styles.less` fi
   font-family: inherit;
 }
 
+.datatip-marked-container p {
+  word-break: break-all;
+}
+
+.datatip-marked-container p br {
+  display: none;
+}
+
 .diagnostics-code-action-button.btn.btn-xs span {
   font-size: 124%;
 }
@@ -50,6 +58,7 @@ If you want to apply styling changes, you can add styles to the `styles.less` fi
     margin-right: 10px;
     display: inline-block;
   }
+
   .diagnostics-popup-message {
     display: inline-block;
     font-size: 114%;
