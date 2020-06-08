@@ -20,6 +20,22 @@
   "dependencies": {
     "atom-languageclient": "^0.9.9"
   },
+  "configSchema": {
+    "exec": {
+      "title": "The actual command to run.",
+      "order": 1,
+      "type": "string",
+      "default": "ghcide",
+      "description": "<b>Hint</b>: If you use Nix you may want to enter <code>nix-shell</code> instead."
+    },
+    "args": {
+      "title": "Arguments as comma-separated values.",
+      "order": 2,
+      "type": "string",
+      "default": "--lsp",
+      "description": "<b>Hint</b>: If you use Nix you may want to enter <code>--run, ghcide --lsp</code> instead."
+    }
+  },
   "consumedServices": {
     "console": {
       "versions": {
