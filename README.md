@@ -1,4 +1,4 @@
-Haskell language support for Atom, powered by [ghcide](https://github.com/digital-asset/ghcide).
+Haskell language support for Atom, powered by [ghcide](https://github.com/digital-asset/ghcide). ([Archived](https://github.com/moodmosaic/ide-haskell-ghcide/issues/3#issuecomment-699930542) repository.)
 
 ```bash
 $ apm install language-haskell atom-ide-ui ide-haskell-ghcide
